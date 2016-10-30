@@ -4,15 +4,15 @@ document.addEventListener('DOMContentLoaded', startGame)
 var board = {
   cells: [
 
-  {col:1, row:1, isMine:false, hidden: true}, {col:2, row:1, isMine:false, hidden: true}, {col:3, row:1, isMine:true, hidden: true}, {col:4, row:1, isMine:false, hidden: true},{col:5, row:1, isMine:true, hidden: true},
+  {col:1, row:1, isMine:false, hidden:true}, {col:2, row:1, isMine:false, hidden:true}, {col:3, row:1, isMine:true, hidden:true}, {col:4, row:1, isMine:false, hidden:true},{col:5, row:1, isMine:true, hidden:true},
 
-  {col:1, row:2, isMine:false,hidden: true}, {col:2, row:2, isMine:true, hidden: true}, {col:3, row:2, isMine:false, hidden: true}, {col:4, row:2, isMine:false, hidden: true}, {col:5, row:2, isMine:true, hidden: true},
+  {col:1, row:2, isMine:false,hidden: true}, {col:2, row:2, isMine:true, hidden:true}, {col:3, row:2, isMine:false, hidden:true}, {col:4, row:2, isMine:false, hidden:true}, {col:5, row:2, isMine:true, hidden:true},
 
-  {col:1, row:3, isMine:true, hidden: true},{col:2, row:3, isMine:false, hidden: true},{col:3, row:3, isMine:true, hidden: true},{col:4, row:3, isMine:false, hidden: true},{col:5, row:3, isMine:false, hidden: true},
+  {col:1, row:3, isMine:true, hidden:true},{col:2, row:3, isMine:false, hidden:true},{col:3, row:3, isMine:true, hidden: true},{col:4, row:3, isMine:false, hidden: true},{col:5, row:3, isMine:false, hidden:true},
 
-  {col:1, row:4, isMine:true, hidden: true}, {col:2, row:4, isMine:false, hidden: true},{col:3, row:4, isMine:true, hidden: true}, {col:4, row:4, isMine:false, hidden: true},{col:5, row:4, isMine:true, hidden: true},
+  {col:1, row:4, isMine:true, hidden:true}, {col:2, row:4, isMine:false, hidden:true},{col:3, row:4, isMine:true, hidden:true}, {col:4, row:4, isMine:false, hidden:true},{col:5, row:4, isMine:true, hidden:true},
 
-  {col:1, row:5, isMine:false, hidden: true},{col:2, row:5, isMine:false, hidden: true},{col:3, row:5, isMine:true, hidden: true},{col:4, row:5, isMine:false, hidden: true},{col:5, row:5, isMine:true, hidden: true},
+  {col:1, row:5, isMine:false, hidden:true},{col:2, row:5, isMine:false, hidden:true},{col:3, row:5, isMine:true, hidden:true},{col:4, row:5, isMine:false, hidden:true},{col:5, row:5, isMine:true, hidden:true},
 
   ]
 }
