@@ -20,7 +20,7 @@ function startGame () {
   for (var i=0; i<board.cells.length; i++) {
   board.cells[i].surroundingMines = countSurroundingMines(board.cells[i]);
   }
-  document.addEventListener("mousedown", checkForWin);
+  document.addEventListener("click", checkForWin);
   document.addEventListener("contextmenu", checkForWin);
   lib.initBoard()
 }
